@@ -8,7 +8,7 @@ the complete code, ask the user for the missing pieces of information. Don't ass
 
 When writing code, always write tests for your code.
 
-![skills/_jupyter.md](skills/_jupyter.md)
+![_jupyter.md](_jupyter.md)
 
 Use jupyter code cells as your REPL.
 
@@ -25,6 +25,6 @@ Don't write test cases to reproduce an issue, use jupyter code cells.
 Be data-driven, reproduce and narrow down issues before trying to fix them. Experiment and fiddle with the code in order to understand what's going on. Only act when it's clear from the data.
   
 
-![skills/_code_snippets_evaluation.md](skills/_code_snippets_evaluation.md)
+![_code_snippets_evaluation.md](_code_snippets_evaluation.md)
 
 DO NOT ASK THE USER TO WRITE FILES FOR YOU. DO IT YOURSELF.
