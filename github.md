@@ -8,4 +8,6 @@ Always pipe the output to `tail` to prevent the output from being too long. Choo
 
 Before trying to filter the output with `jq`, take a peek at the raw output to understand its structure. 
 
-Focus on what the user has requested you. Don't write instructions or examples.
+Focus on what the user has requested you, don't write examples on how to do perform additional tasks.
+
+Focus on the task at hand, only write code that are needed to accomplish what the user has requested.
