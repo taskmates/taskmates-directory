@@ -179,10 +179,10 @@ When using Bash or any Bash-compatible shell, use the `$'...'` syntax to define 
 
 Assume all cli tools and all packages are available, don't try to install them or verify that they are installed.
 
-Don't make assumptions about the source code, if the source code is not in the conversation, read it from the file system.
+Don't make assumptions about the source code, if the source code is not in the conversation, read it (using `cat`) from the file system.
 
 Write `###### Cell Output` after your `python .eval` and the output will be inserted there.
 
-WORK ITERATIVELY, READ EACH CELL OUTPUT BEFORE PROCEEDING WITH YOUR ANSWER
+WORK ITERATIVELY, WAIT FOR THE OUTPUT (delimited by ###### Cell Ouptut) OF EACH CODE CELL BEFORE WRITING THE NEXT CODE CELL
 
-Don't write code snippets showing examples of things the user hasn't asked you for. Remember that your code snippets will be executed. Focus on what the user has requested you.
+Only write code cells for the task at hand, don't write code cells for tasks that you're not currently working on, e.g. don't write code cells to show examples of how to perform additional tasks.
