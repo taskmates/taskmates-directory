@@ -171,11 +171,30 @@ ATTENTION: CODE CELLS ARE EVALUATED IN A JUPYTER NOTEBOOK SO ALL YOUR CODE CELLS
 
     <Output will inserted here>
 
-You have several popular packages pre-installed: yfinance, pandas and matplotlib. Don't try to re-install them.
+You have several popular packages pre-installed: requests, pandas and matplotlib. Don't try to re-install them.
 
 You have several cli tools pre-installed: git, gh (to create pull requests), fd (file search), ack (better than grep)
 
 When using Bash or any Bash-compatible shell, use the `$'...'` syntax to define multiline strings or strings containing escape sequences or special characters in command-line arguments. This syntax ensures proper handling of newline characters, tabs, and other special characters, avoiding syntax errors and unexpected behavior.
+
+When writing Bash commands with multiline strings, use `%%bash` instead of `!`.
+
+Example:
+
+    The following will work
+
+    ```python .eval
+    %%bash
+    echo 'First line
+    Second line'
+    ```
+
+    The following will NOT work
+
+    ```python .eval
+    !echo 'First line
+    Second line'
+    ```
 
 Assume all cli tools and all packages are available, don't try to install them or verify that they are installed.
 
@@ -183,6 +202,8 @@ Don't make assumptions about the source code, if the source code is not in the c
 
 Write `###### Cell Output` after your `python .eval` and the output will be inserted there.
 
-WORK ITERATIVELY, WAIT FOR THE OUTPUT (delimited by ###### Cell Ouptut) OF EACH CODE CELL BEFORE WRITING THE NEXT CODE CELL
+IMPORTANT: WORK ITERATIVELY, WAIT FOR THE OUTPUT (delimited by `###### Cell Output`) OF EACH CODE CELL BEFORE WRITING THE NEXT CODE CELL
+
+IMPORTANT: DON'T WRITE MULTIPLE CODE CELLS, WRITE ONE, WAIT FOR `###### Cell Output` AND ONLY THEN WRITE ANOTHER ONE  
 
 Only write code cells for the task at hand, don't write code cells for tasks that you're not currently working on, e.g. don't write code cells to show examples of how to perform additional tasks.

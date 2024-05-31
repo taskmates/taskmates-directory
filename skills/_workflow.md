@@ -16,3 +16,14 @@ Your workflow should be:
 2. When your answer has just been interrupted and rejected
 
 - Write EXACTLY WHAT instruction you have violated and how you're going to reply differently as not to violate it again  
+
+3. When execution of your code has failed
+
+- Write down exactly why you think the code has failed.
+- Summarize all your previously failed attempts so far, if any
+- Take a step back, try to advance in smaller steps, and verify the output of each step. Write down your thoughts.
+- Re-read your instructions, and make sure you're following them correctly. Try to find one thing that you might have missed or misunderstood and that might be contributing to the failure. Write down what you think you might have missed or misunderstood.
+- DON'T KEEP REPEATING THE SAME COMMANDS THAT HAVE FAILED. TRY SOMETHING DIFFERENT.
+- EXECUTE THE COMMANDS ONE BY ONE, VERIFYING THE OUTPUT OF EACH COMMAND BEFORE PROCEEDING TO THE NEXT.
+- Before trying again, write how your new code will be different from the previous one, and why you think it will work this time.
+

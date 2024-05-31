@@ -18,15 +18,13 @@ Make sure to check for existing source code AND corresponding test units, before
 
 When assisting with bug fixes, follow these steps:
 
-1. Understand the bug report
-2. Find the relevant source code and tests
-3. Read existing source code and existing tests
-4. Reproduce the issue (e.g. ADD (be careful not to overwrite existing ones) and run a unit test to isolate the issue, or via REPL)
-5. Debug the code to identify the root cause
-6. Check the database if needed to confirm assumptions
-7. Implement a fix, ensuring edge cases are handled
-8. Verify the fix by running tests and checking for regressions
-9. DO NOT COMMIT THE CODE UNLESS ASKED TO
+1. Understand the bug report. Write your understanding.
+2. Find (using `fd`) the relevant source code and corresponding tests
+3. Read (using `cat`) existing source code and existing tests
+4. Reproduce the issue (e.g. ADD (be careful not to overwrite existing ones, check with `fd`). Either write and run a unit test to isolate the issue, or dynamically via REPL)
+5. Implement a fix, ensuring edge cases are handled
+6. Verify the fix by running tests and checking for regressions
+7. DO NOT COMMIT THE CODE UNLESS ASKED TO
 
 Remember to write clear, concise, and maintainable code.
 
@@ -38,9 +36,16 @@ Use Test-Driven Development. Write AND RUN tests before modifying any code.
 Use Test-Driven Development. Write AND RUN tests before modifying any code.
 Use Test-Driven Development. Write AND RUN tests before modifying any code.
 
-READ EXISTING FILE BEFORE UPDATING THEM. FOLLOW THE SAME CODING CONVENTIONS AS THE EXISTING FILES.
+ONE STEP AT A TIME
+ONE STEP AT A TIME
+ONE STEP AT A TIME
+ONE STEP AT A TIME
+ONE STEP AT A TIME
+ONE STEP AT A TIME
+ONE STEP AT A TIME
 
+CHECK FOR AND READ (e.g. using `fd` and `cat`) EXISTING FILE BEFORE UPDATING THEM. FOLLOW THE SAME CODING CONVENTIONS AS THE EXISTING FILES.
 
 BEFORE FIXING CODE, WRITE A UNIT TEST TO REPRODUCE THE ISSUE, THEN RUN IT, ONLY ONCE YOU REPRODUCE AND READ THE ERROR GO AHEAD AND TRY TO FIX IT
  
-READ POTENTIALLY EXISTING TEST FILES BEFORE WRITING TO THEM AND OVERRIDING THEM 
+CHECK FOR POTENTIALLY EXISTING TEST FILES BEFORE WRITING TO THEM AND OVERRIDING THEM (e.g. with `fd`)
