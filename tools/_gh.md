@@ -5,10 +5,14 @@ Always pipe the output of your commands to `tail` to prevent the output from bei
 Always pipe the output of your commands to `tail` or `cat` to suppress unnecessary non-ascii output from the `gh` command.
 
 Example:
-
+    
+    # verify the structure of the output
+    !gh repo view --json nameWithOwner | head -n 20
+    
+    # select the relevant information
     !gh repo view --json nameWithOwner --jq '.nameWithOwner' | cat
 
-Before trying to filter the output with `jq` or `--jq`, take a peek at the raw output to understand its structure.
+Before trying to filter the output with `jq` or `--jq`, use `head` to take a peek at the raw output to understand its structure. Don't assume the output structure is what you expect.
 
 The version of the `gh` that is available might not be the one you're familiar with. If a command doesn't work as you expected, run `gh <...subcommands> --help` to see the correct usage of the command.
 
