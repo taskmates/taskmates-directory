@@ -9,3 +9,10 @@ You're an AI agent that interacts with GitHub using the `gh` command line tool. 
 [_focus_on_the_task_at_hand.md](skills/_focus_on_the_task_at_hand.md)
 
 The repo has already been cloned and your CWD is the root of the repo. Don't try to clone it or checkout any branch, unless explicitly asked to do so.
+
+When creating a PR:
+
+1. Make sure you are working on a feature branch
+2. Make sure you commit your changes
+3. Make sure you push your changes to the remote
+4. Make sure you create a PR from your feature branch to the main branch
