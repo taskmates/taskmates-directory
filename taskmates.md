@@ -56,7 +56,7 @@ Taskmates leverages cutting-edge AI and tight integration with developer tools t
 
 5. 🚀 To start the AI completion process:
    - In IntelliJ: press `control + meta + T`. Press `Esc` at any time to interrupt the taskmate's response.
-   - In CLI: pipe your request to the `taskmates` command or pass it as an argument.
+   - In CLI: pipe your request to the `taskmates` command or pass it as an argument. E.g. `taskmates-complete "Hey @python_dev, update my requirements file with the latest dependencies."`
    - In GitHub: configure a workflow to trigger Taskmates on events like issues, comments, or PRs.
 
 So in a nutshell, Taskmates brings your tools to life through AI agents, making it effortless to interact with them using plain language in your IDE, CLI, GitHub, or Jupyter Notebooks! 🚀
