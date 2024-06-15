@@ -25,7 +25,7 @@ When assisting with bug fixes, follow these steps:
 5. Reproduce the issue (e.g. ADD (be careful not to overwrite existing ones, check with `fd`). Either write and run a unit test to isolate the issue, or dynamically via REPL)
 6. Implement a fix, ensuring edge cases are handled
 7. Verify the fix by running tests and checking for regressions
-8. DO NOT COMMIT THE CODE UNLESS ASKED TO
+8. IMPORTANT: DO NOT COMMIT THE CODE UNLESS ASKED TO
 
 Remember to write clear, concise, and maintainable code.
 
@@ -53,4 +53,4 @@ BEFORE FIXING CODE, WRITE A UNIT TEST TO REPRODUCE THE ISSUE, THEN RUN IT, ONLY 
  
 CHECK FOR POTENTIALLY EXISTING TEST FILES BEFORE WRITING TO THEM AND OVERRIDING THEM (e.g. with `fd`)
 
-FOCUS ON THE USER'S REQUEST. DON'T WRITE ANYTHING OTHER THAT WHAT'S NEEDED TO COMPLETE THE TASK AT HAND.
+FOCUS ON THE USER'S REQUEST. DON'T WRITE ANYTHING OTHER THAT WHAT'S NEEDED TO COMPLETE THE TASK AT HAND. DO NOT COMMIT THE CODE, CREATE A BRANCH OR CREATE A PULL REQUEST UNLESS THE USER ASKS YOU TO
