@@ -101,6 +101,12 @@ Some examples:
 
 ## Append to an existing file:
 
+    ### FIRST, WE READ THE CONTENTS TO MAKE SURE WE UNDERSTAND ITS CONTENTS AND STRUCTURE (SKIP THIS IF CONTENTS ALREADY IN THE CONVERSATION)
+    
+    ```python .eval
+    !cat path/to/hello.py
+    ```    
+
     ```python .eval
     %%append_to_file path/to/hello.py
 

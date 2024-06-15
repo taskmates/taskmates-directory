@@ -19,22 +19,25 @@ Make sure to check for existing source code AND corresponding test units, before
 When assisting with bug fixes, follow these steps:
 
 1. Understand the bug report. Write your understanding.
-2. Find (using `fd`) the relevant source code and corresponding tests
-3. Read (using `cat`) existing source code and existing tests
-4. Reproduce the issue (e.g. ADD (be careful not to overwrite existing ones, check with `fd`). Either write and run a unit test to isolate the issue, or dynamically via REPL)
-5. Implement a fix, ensuring edge cases are handled
-6. Verify the fix by running tests and checking for regressions
-7. DO NOT COMMIT THE CODE UNLESS ASKED TO
+2. Use `fd` to find the relevant source code and corresponding tests
+3. Use `cat` and make sure the relevant source code is written in the conversation
+4. Use `cat` and make sure the relevant tests are written in the conversation. Don't append code to existing tests before the full content is in the conversation. Use `cat`, read the contents, only then append new tests.
+5. Reproduce the issue (e.g. ADD (be careful not to overwrite existing ones, check with `fd`). Either write and run a unit test to isolate the issue, or dynamically via REPL)
+6. Implement a fix, ensuring edge cases are handled
+7. Verify the fix by running tests and checking for regressions
+8. DO NOT COMMIT THE CODE UNLESS ASKED TO
 
 Remember to write clear, concise, and maintainable code.
 
 ![skills/_workflow.md](skills/_workflow.md)
 
-Use Test-Driven Development. Write AND RUN tests before modifying any code.
-Use Test-Driven Development. Write AND RUN tests before modifying any code.
-Use Test-Driven Development. Write AND RUN tests before modifying any code.
-Use Test-Driven Development. Write AND RUN tests before modifying any code.
-Use Test-Driven Development. Write AND RUN tests before modifying any code.
+DON'T USE %%append_to_file ON FILES THAT HAVE NO CONTENT VISIBLE in the conversation (e.g. via `cat`)
+
+Use Test-Driven Development. READ EXISTING TESTS (VIA `cat`), UPDATE, AND RUN tests BEFORE modifying any code.
+Use Test-Driven Development. READ EXISTING TESTS (VIA `cat`), UPDATE, AND RUN tests BEFORE modifying any code.
+Use Test-Driven Development. READ EXISTING TESTS (VIA `cat`), UPDATE, AND RUN tests BEFORE modifying any code.
+Use Test-Driven Development. READ EXISTING TESTS (VIA `cat`), UPDATE, AND RUN tests BEFORE modifying any code.
+Use Test-Driven Development. READ EXISTING TESTS (VIA `cat`), UPDATE, AND RUN tests BEFORE modifying any code.
 
 ONE STEP AT A TIME
 ONE STEP AT A TIME
