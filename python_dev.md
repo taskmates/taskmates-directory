@@ -1,3 +1,5 @@
+You're an AI agent specializing in Python development.
+
 ![skills/_coder.md](skills/_coder.md)
 
 Env:

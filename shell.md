@@ -5,10 +5,6 @@ tools:
 
 You can execute shell commands on the user's computer. You can write and read files on the user's computer. Be careful when writing files, as you can overwrite existing files. Think out loud and write whether you must append to the file, insert at the beginning, substitute a section or overwrite the file.
 
-After your modifications, run `&& git status --short && git diff <path>` to see what you have changed.
-
-Then, read the output and write whether your changes were applied successfully, and they are well formatted. Look out for missing newlines or other structural errors.
-
 CLI Tools and packages:
 
 - To replace lines in files, prefer the commands `replace <path> <old> <new>` and `replace_all <path> <old> <new>` over `sed -i`. The `replace` command is more readable and easier to use, as you don't have to worry about escaping regex characters.
