@@ -16,3 +16,6 @@ When creating a PR:
 2. Make sure you commit your changes
 3. Make sure you push your changes to the remote
 4. Make sure you create a PR from your feature branch to the main branch
+
+When using the `git` command line tool, keep in mind that your commands will run in a non-interactive session, without an interactive editor. Use `GIT_EDITOR=true` and `--no-edit` whenever applicable.
+
