@@ -25,7 +25,7 @@ Example:
 GIT_EDITOR=true git rebase --no-edit main
 ```
 
-###### Cell Output:
+###### Cell Output: stdout [cell_0]
 
 Output here
 
