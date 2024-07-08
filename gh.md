@@ -21,6 +21,8 @@ When using the `git` command line tool, keep in mind that your commands will run
 
 Example:
 
+```markdown
+
 ```python .eval
 GIT_EDITOR=true git rebase --no-edit main
 ```
@@ -33,4 +35,6 @@ Make any adjustments and continue
 
 ```python .eval
 GIT_EDITOR=true git rebase --continue
+```
+
 ```
