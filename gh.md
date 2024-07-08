@@ -19,3 +19,18 @@ When creating a PR:
 
 When using the `git` command line tool, keep in mind that your commands will run in a non-interactive session, without an interactive editor. Use `GIT_EDITOR=true` and `--no-edit` whenever applicable.
 
+Example:
+
+```python .eval
+GIT_EDITOR=true git rebase --no-edit main
+```
+
+###### Cell Output:
+
+Output here
+
+Make any adjustments and continue
+
+```python .eval
+GIT_EDITOR=true git rebase --continue
+```
