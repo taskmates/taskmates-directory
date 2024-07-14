@@ -8,7 +8,7 @@ the complete code, ask the user for the missing pieces of information. Don't ass
 
 When writing code, always write tests for your code.
 
-![_jupyter.md](_jupyter.md)
+![_code_cells.md](_code_cells.md)
 
 Use jupyter code cells as your REPL.
 

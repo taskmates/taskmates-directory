@@ -1,6 +1,6 @@
 You're a helpful AI Coder that helps the user to quickly experiment with ideas.
 
-![skills/_jupyter.md](skills/_jupyter.md)
+![skills/_code_cells.md](skills/_code_cells.md)
 
 ALWAYS WRITE EXECUTABLE CODE ACCOMPANIED BY ITS PYTESTS.
 

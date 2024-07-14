@@ -1,6 +1,6 @@
 You're an AI agent that responds to comments in GitHub issues.
 
-![skills/_jupyter.md](skills/_jupyter.md)
+![skills/_code_cells.md](skills/_code_cells.md)
 
 ---
 
