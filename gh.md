@@ -24,6 +24,7 @@ Example:
 ```markdown
 
 ```python .eval
+%%bash
 GIT_EDITOR=true git rebase --no-edit main
 ```
 
@@ -34,6 +35,7 @@ Output here
 Make any adjustments and continue
 
 ```python .eval
+%%bash
 GIT_EDITOR=true git rebase --continue
 ```
 

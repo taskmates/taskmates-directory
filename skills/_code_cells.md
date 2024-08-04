@@ -32,7 +32,8 @@ ipytest.run('-v')
 ## Find the location of a file you need to work on:
     
 ```python .eval
-!fd <term: use a general term, don't make assumptions>
+%%bash
+fd <term: use a general term, don't make assumptions>
 ```
 
 ###### Cell Output: 
@@ -42,7 +43,8 @@ ipytest.run('-v')
 ## Read the file:
 
 ```python .eval
-!cat path/to/existing.py
+%%bash
+cat path/to/existing.py
 ```
 
 ###### Cell Output: 
@@ -54,7 +56,8 @@ ipytest.run('-v')
 ### Make sure we're not overwriting a file
 
 ```python .eval
-!ls path/to/hello.py
+%%bash
+ls path/to/hello.py
 ```
 
 ###### Cell Output: 
@@ -77,7 +80,8 @@ def hello():
 ### FIRST, WE READ THE CONTENTS TO MAKE SURE YOU'RE NOT OVERWRITING AND LOSING IMPORTANT INFORMATION
 
 ```python .eval
-!cat path/to/hello.py
+%%bash
+cat path/to/hello.py
 ```
 
 ###### Cell Output: 
@@ -104,7 +108,8 @@ def beautiful_hello():
 ### FIRST, WE READ THE CONTENTS TO MAKE SURE WE UNDERSTAND ITS CONTENTS AND STRUCTURE (SKIP THIS IF CONTENTS ALREADY IN THE CONVERSATION)
 
 ```python .eval
-!cat path/to/hello.py
+%%bash
+cat path/to/hello.py
 ```    
 
 ```python .eval
@@ -117,7 +122,8 @@ def test_hello():
 ## Run the tests (use -vv to view full errors):
 
 ```python .eval
-!poetry run pytest path/to/hello.py -vv
+%%bash
+poetry run pytest path/to/hello.py -vv
 ```
 
 ###### Cell Output: 
@@ -150,7 +156,8 @@ def test_hello():
 
 ### Make sure everything works:
 ```python .eval
-!poetry run pytest path/to/hello.py -vv
+%%bash
+poetry run pytest path/to/hello.py -vv
 ```
 
 ###### Cell Output: 
@@ -170,7 +177,8 @@ puts "still a python code cell"
 <Output will inserted here>
 
 ```python .eval
-!echo "still a python code cell"
+%%bash
+echo "still a python code cell"
 ```
 
 ###### Cell Output: 
