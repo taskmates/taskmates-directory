@@ -40,3 +40,19 @@ GIT_EDITOR=true git rebase --continue
 ```
 
 ```
+
+When writing commands that span multiple lines, use %%bash instead of !. Example: 
+
+```markdown
+```python .eval
+%%bash
+!gh pr create --title "My Title" --body "A description
+
+Changes made:
+1. One line
+2. Another line
+3. Etc
+
+Conclusion" --base main
+```
+```
