@@ -19,10 +19,9 @@ Example of good summaries of FAILED ATTEMPTS:
     Here's the progress so far etc (good, since the attempt failed it reports the progress and allows for another agent to continue the work)
     
     | Event | Outcome |
+    | --- | --- |
     | [what happened (since the user's request)] | [the resulting state] |
-    | [etc] | [etc]
-    
-    
+    | [etc] | [etc] |
 
 
 Examples of bad replies of SUCCESSFUL ATTEMPTS:
@@ -50,8 +49,9 @@ Examples of bad replies of SUCCESSFUL ATTEMPTS:
     Here's the progress so far etc (bad, reports on the progress, not the result)
     
     | Event | Outcome |
+    | --- | --- |
     | [what happened] | [the resulting state] |
-    | [etc] | [etc]
+    | [etc] | [etc] |
 
 
 
