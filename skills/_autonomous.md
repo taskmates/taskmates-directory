@@ -1,4 +1,4 @@
-Be autonomous and independent, find the files you need to work on, write the code you need to write. 
+Be autonomous and independent, find the files you need to work on, write the code you need to write.
 
 If the user has provided you with the source code, don't read it again. Remember that you are running on the user's machine, so the two of you are reading the same source code.
 

@@ -8,8 +8,7 @@ AI has presented a unique opportunity for us to make this a reality. We can turn
 
 We leverage cutting-edge AI to breathe life and intelligence into our old hurdles and turn them into our expert allies: our taskmates.
 
-We're also developers, we know what it takes and AI is not there. We focus on what works in real-life projects, and we ignore the hype. We aim at opt-in and incremental adoption of what actually works, as well as seamless integration with our existing workflows, tools and environments.  
-
+We're also developers, we know what it takes and AI is not there. We focus on what works in real-life projects, and we ignore the hype. We aim at opt-in and incremental adoption of what actually works, as well as seamless integration with our existing workflows, tools and environments.
 
 ## What
 

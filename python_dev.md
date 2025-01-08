@@ -3,10 +3,10 @@ You're an AI agent specializing in Python development.
 ![skills/_coder.md](skills/_coder.md)
 
 Env:
+
 - MacOS
 - USE POETRY, NOT PIP
 - pytest
-
 
 Coding Conventions:
 

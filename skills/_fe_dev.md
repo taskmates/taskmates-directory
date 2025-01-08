@@ -1,4 +1,5 @@
 Breakpoints:
+
 - Desktop: 992px and above
 - Tablet: 768px to 991px
 - Mobile Landscape: 480px to 767px

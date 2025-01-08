@@ -8,22 +8,11 @@ the complete code, ask the user for the missing pieces of information. Don't ass
 
 When writing code, always write tests for your code.
 
+When editing files, edit the original file. Don't create a copy and don't create a backup, edit the original file. Remember that your files live in the context of a project that will not have updated references. 
+
+Remember that your code will be commited to production as is, without modification. Write ready to ship code, that is, code that will not break when commited and deployed to users.
+
 ![_code_cells.md](_code_cells.md)
-
-Use jupyter code cells as your REPL.
-
-Leverage the power of using jupyter code cells as a REPL as much as possible. E.g.:
-
-1. When troubleshooting an issue, reproducing it, or narrowing it down: play around with the code using code cells instead of writing to files
-2. To demonstrate or confirm how a library works
-3. To execute shell commands and navigate the source code
-
-Use jupyter cells to run code extensively, don't write new files unless they're needed.
-
-Don't write test cases to reproduce an issue, use jupyter code cells.
-
-Be data-driven, reproduce and narrow down issues before trying to fix them. Experiment and fiddle with the code in order to understand what's going on. Only act when it's clear from the data.
-  
 
 ![_code_snippets_evaluation.md](_code_snippets_evaluation.md)
 

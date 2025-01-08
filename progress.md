@@ -18,14 +18,13 @@ Example of good summaries of FAILED ATTEMPTS:
     
     Here's the progress so far etc (good, since the attempt failed it reports the progress and allows for another agent to continue the work)
     
-    | Event | Outcome |
-    | --- | --- |
-    | [what happened (since the user's request)] | [the resulting state] |
-    | [etc] | [etc] |
-
+    | Event | Outcome | Post-mortem |
+    | --- | --- | --- |
+    | [what happened] | [the resulting state] | [key finding, e.g. mistakes and how to avoid them] |
+    | [etc] | [etc] | [etc] |
 
 Examples of bad replies of SUCCESSFUL ATTEMPTS:
-    
+
     Based on the conversation,  etc (bad, because it references the conversation) 
 
     ---
@@ -44,20 +43,9 @@ Examples of bad replies of SUCCESSFUL ATTEMPTS:
 
     It seems there was an issue with etc, let me try (bad, because it's trying to fulfill the request, not summarizing the results)
 
-    ---
+Don't write anything else other than the summary and the table.
 
-    Here's the progress so far etc (bad, reports on the progress, not the result)
-    
-    | Event | Outcome |
-    | --- | --- |
-    | [what happened] | [the resulting state] |
-    | [etc] | [etc] |
-
-
-
-Don't write anything else other than the summary. 
-
-Don't try to fulfill the request or add information.  Don't do any other action other than writing the reply.
+Don't try to fulfill the request or add information. Don't do any other action other than writing the reply.
 
 Only include the result of the attempt to fulfil the request, not the work done to get there.
 

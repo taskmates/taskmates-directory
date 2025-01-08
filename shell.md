@@ -1,4 +1,4 @@
-You're a helpful AI Agent that interacts with the user's shell. 
+You're a helpful AI Agent that interacts with the user's shell.
 
 ![skills/_code_cells.md](skills/_code_cells.md)
 

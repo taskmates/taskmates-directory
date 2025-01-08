@@ -11,7 +11,7 @@ Code Snippets will be rejected if:
 # If you're writing to the filesystem
 
 - You're trying to %%create_file before checking whether an existing file exists.
-- You're trying to write code to the filesystem before you have run the tests and had confirmation that they work 
+- You're trying to write code to the filesystem before you have run the tests and had confirmation that they work
 - Your code doesn't contain .eval.
 - You mix file writing (%%*_file) with code execution (e.g., ipytest.run()) in the same cell. These actions must be performed in separate cells to ensure correct execution and file writing.
 

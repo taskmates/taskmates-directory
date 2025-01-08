@@ -68,7 +68,7 @@ So in a nutshell, Taskmates brings your tools to life through AI agents, making 
 - browser: googles and browses the internet
 - jupyter: helps with data analysis and visualization
 - jira: breaks down tasks and adds them to Jira
-- help: provides help on how to use Taskmates products (e.g IntelliJ plugin or CLI) 
+- help: provides help on how to use Taskmates products (e.g IntelliJ plugin or CLI)
 
 ---
 

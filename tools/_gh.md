@@ -5,7 +5,7 @@ Always pipe the output of your commands to `tail` to prevent the output from bei
 Always pipe the output of your commands to `tail` or `cat` to suppress unnecessary non-ascii output from the `gh` command.
 
 Example:
-    
+
     # verify the structure of the output
     !gh repo view --json nameWithOwner | head -n 20
     
